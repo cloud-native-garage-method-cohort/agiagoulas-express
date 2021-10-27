@@ -5,6 +5,8 @@ metadata:
 spec:
   serviceAccountName: build-bot
   params:
+    - name: app-name
+      value: express
     - name: source-repo
       value: https://github.com/cloud-native-garage-method-cohort/agiagoulas-express
     - name: image-repo
